@@ -73,6 +73,13 @@
           </oc:link>
         </oc:person_links>
       </arch:links>
+      <arch:notes>
+        <arch:note>
+          <arch:string type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">The unique identifier for each contextual unit, matching those used in the central Çatalhöyük excavation database and in publications. The excavation uses single-context recording. </div>
+          </arch:string>
+        </arch:note>
+      </arch:notes>
     </arch:observation>
   </arch:observations>
   <oc:context>
@@ -186,21 +193,25 @@
   <oc:metadata>
     <dc:title>Çatalhöyük Zooarchaeology: Unit 1274 (Excav. Unit)</dc:title>
     <dc:publisher>Open Context</dc:publisher>
-    <dc:date>2013-02-14</dc:date>
-    <dc:subject>Turkey</dc:subject>
+    <dc:date>2013-08-11</dc:date>
     <dc:subject>Zooarchaeology</dc:subject>
-    <dc:subject>Faunal data</dc:subject>
-    <dc:subject>Mammal Remains</dc:subject>
+    <dc:subject>Turkey</dc:subject>
     <dc:subject>Neolithic</dc:subject>
+    <dc:subject>Mammal Remains</dc:subject>
+    <dc:subject>Faunal data</dc:subject>
     <dc:subject>Central Anatolia</dc:subject>
     <dc:subject>Çatalhöyük</dc:subject>
     <dc:subject>Animal Economy</dc:subject>
     <dc:contributor href="http://opencontext.org/persons/94AA8533-450D-4FC7-4DC1-3CB12A3FE52C">Nerissa Russell</dc:contributor>
     <dc:creator href="http://opencontext.org/persons/2664C6A9-3867-4EC7-C7A6-F60C688E7008">David Orton</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/94AA8533-450D-4FC7-4DC1-3CB12A3FE52C">Nerissa Russell</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/">Katherine Twiss</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/193BC120-D87D-4122-1877-A8BA4999BCDA">Louise Martin</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/D210F391-6424-4E14-FA35-F4F5C4627EA2">Sheelagh Frame</dc:creator>
     <dc:identifier>http://opencontext.org/subjects/C86FE450-0CCA-4BB8-F294-CC81149C9853</dc:identifier>
     <oc:project_name href="http://opencontext.org/projects/1B426F7C-99EC-4322-4069-E8DBD927CCF1">Çatalhöyük Zooarchaeology</oc:project_name>
-    <oc:pub_date>2013-02-14T00:00:00-07:00</oc:pub_date>
-    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=%C3%87atalh%C3%B6y%C3%BCk+Zooarchaeology%3A+Unit+1274+%28Excav.+Unit%29&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=Turkey&amp;rft.subject=Zooarchaeology&amp;rft.subject=Faunal+data&amp;rft.subject=Mammal+Remains&amp;rft.subject=Neolithic&amp;rft.subject=Central+Anatolia&amp;rft.subject=%C3%87atalh%C3%B6y%C3%BCk&amp;rft.subject=Animal+Economy&amp;rft.contributor=Nerissa+Russell&amp;rft.creator=David+Orton&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fsubjects%2FC86FE450-0CCA-4BB8-F294-CC81149C9853</oc:coins>
+    <oc:pub_date>2013-08-11T00:00:00-07:00</oc:pub_date>
+    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=%C3%87atalh%C3%B6y%C3%BCk+Zooarchaeology%3A+Unit+1274+%28Excav.+Unit%29&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=Zooarchaeology&amp;rft.subject=Turkey&amp;rft.subject=Neolithic&amp;rft.subject=Mammal+Remains&amp;rft.subject=Faunal+data&amp;rft.subject=Central+Anatolia&amp;rft.subject=%C3%87atalh%C3%B6y%C3%BCk&amp;rft.subject=Animal+Economy&amp;rft.contributor=Nerissa+Russell&amp;rft.creator=David+Orton&amp;rft.creator=Nerissa+Russell&amp;rft.creator=Katherine+Twiss&amp;rft.creator=Louise+Martin&amp;rft.creator=Sheelagh+Frame&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fsubjects%2FC86FE450-0CCA-4BB8-F294-CC81149C9853</oc:coins>
     <oc:geo_reference>
       <oc:geo_lat>37.668196</oc:geo_lat>
       <oc:geo_long>32.827191</oc:geo_long>
@@ -217,10 +228,10 @@
     </oc:copyright_lic>
   </oc:metadata>
   <oc:social_usage>
-    <oc:last_updated>2013-08-08T04:26:47-07:00</oc:last_updated>
+    <oc:last_updated>2013-08-14T00:28:19-07:00</oc:last_updated>
     <oc:item_views>
       <oc:count>1</oc:count>
-      <oc:view_time>2013/08/08 04:26:47</oc:view_time>
+      <oc:view_time>2013/08/14 00:28:19</oc:view_time>
     </oc:item_views>
     <oc:user_tags>
       <oc:tag type="chronological" status="public">

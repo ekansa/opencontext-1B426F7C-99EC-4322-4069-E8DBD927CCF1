@@ -7,6 +7,43 @@
     <oc:name>Site</oc:name>
     <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/site_50x50.jpg</oc:iconURI>
   </oc:item_class>
+  <arch:observations>
+    <arch:observation obsNumber="1">
+      <oc:obs_metadata>
+        <oc:source>manual</oc:source>
+      </oc:obs_metadata>
+      <arch:properties>
+        <arch:property>
+          <arch:variableID>6429FCC2-C308-40C5-4C52-98E2E5C3400C</arch:variableID>
+          <arch:valueID>35D9ECE0-E35B-4F61-0F09-DF4E18D884A3</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/F8ADE0CD-0ACC-4DAB-22C3-030F51B986AC">F8ADE0CD-0ACC-4DAB-22C3-030F51B986AC</oc:propid>
+          <oc:var_label type="alphanumeric">External reference</oc:var_label>
+          <oc:show_val type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+              <a href="http://www.catalhoyuk.com/">Çatalhöyük Project Website</a>
+            </div>
+          </oc:show_val>
+        </arch:property>
+        <arch:property>
+          <arch:variableID>B90CA9CC-B313-4525-8F26-0896AE7D3ED2</arch:variableID>
+          <arch:valueID>CB002D9C-0877-4E09-1692-C89E98F3993C</arch:valueID>
+          <oc:propid href="http://opencontext.org/properties/07DC1E72-5D9E-44AC-4145-B5E0E34C2F02">07DC1E72-5D9E-44AC-4145-B5E0E34C2F02</oc:propid>
+          <oc:var_label type="nominal">Gazetteer reference</oc:var_label>
+          <oc:show_val>Çatalhöyük</oc:show_val>
+          <oc:linkedData>
+            <oc:relationLink localType="variable" localID="B90CA9CC-B313-4525-8F26-0896AE7D3ED2" href="http://purl.org/dc/terms/references">
+              <oc:vocabulary href="http://concordia.atlantides.org/">Concordia</oc:vocabulary>
+              <oc:label>References</oc:label>
+              <oc:targetLink localType="property" localID="07DC1E72-5D9E-44AC-4145-B5E0E34C2F02" localURI="http://opencontext.org/properties/07DC1E72-5D9E-44AC-4145-B5E0E34C2F02" href="http://pleiades.stoa.org/places/483473194">
+                <oc:vocabulary href="http://pleiades.stoa.org/">Pleiades</oc:vocabulary>
+                <oc:label>Çatalhöyük</oc:label>
+              </oc:targetLink>
+            </oc:relationLink>
+          </oc:linkedData>
+        </arch:property>
+      </arch:properties>
+    </arch:observation>
+  </arch:observations>
   <oc:context>
     <oc:tree id="default">
       <oc:parent href="http://opencontext.org/subjects/1_Global_Spatial">
@@ -51,20 +88,24 @@
   <oc:metadata>
     <dc:title>Çatalhöyük Zooarchaeology: Çatalhöyük (Site)</dc:title>
     <dc:publisher>Open Context</dc:publisher>
-    <dc:date>2013-02-14</dc:date>
-    <dc:subject>Turkey</dc:subject>
+    <dc:date>2013-08-11</dc:date>
     <dc:subject>Zooarchaeology</dc:subject>
-    <dc:subject>Faunal data</dc:subject>
-    <dc:subject>Mammal Remains</dc:subject>
+    <dc:subject>Turkey</dc:subject>
     <dc:subject>Neolithic</dc:subject>
+    <dc:subject>Mammal Remains</dc:subject>
+    <dc:subject>Faunal data</dc:subject>
     <dc:subject>Central Anatolia</dc:subject>
     <dc:subject>Çatalhöyük</dc:subject>
     <dc:subject>Animal Economy</dc:subject>
     <dc:creator href="http://opencontext.org/persons/2664C6A9-3867-4EC7-C7A6-F60C688E7008">David Orton</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/94AA8533-450D-4FC7-4DC1-3CB12A3FE52C">Nerissa Russell</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/">Katherine Twiss</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/193BC120-D87D-4122-1877-A8BA4999BCDA">Louise Martin</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/D210F391-6424-4E14-FA35-F4F5C4627EA2">Sheelagh Frame</dc:creator>
     <dc:identifier>http://opencontext.org/subjects/E44A115A-DFCB-4971-6750-40955DF2C062</dc:identifier>
     <oc:project_name href="http://opencontext.org/projects/1B426F7C-99EC-4322-4069-E8DBD927CCF1">Çatalhöyük Zooarchaeology</oc:project_name>
-    <oc:pub_date>2013-02-14T00:00:00-07:00</oc:pub_date>
-    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=%C3%87atalh%C3%B6y%C3%BCk+Zooarchaeology%3A+%C3%87atalh%C3%B6y%C3%BCk+%28Site%29&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=Turkey&amp;rft.subject=Zooarchaeology&amp;rft.subject=Faunal+data&amp;rft.subject=Mammal+Remains&amp;rft.subject=Neolithic&amp;rft.subject=Central+Anatolia&amp;rft.subject=%C3%87atalh%C3%B6y%C3%BCk&amp;rft.subject=Animal+Economy&amp;rft.creator=David+Orton&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fsubjects%2FE44A115A-DFCB-4971-6750-40955DF2C062</oc:coins>
+    <oc:pub_date>2013-08-11T00:00:00-07:00</oc:pub_date>
+    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=%C3%87atalh%C3%B6y%C3%BCk+Zooarchaeology%3A+%C3%87atalh%C3%B6y%C3%BCk+%28Site%29&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=Zooarchaeology&amp;rft.subject=Turkey&amp;rft.subject=Neolithic&amp;rft.subject=Mammal+Remains&amp;rft.subject=Faunal+data&amp;rft.subject=Central+Anatolia&amp;rft.subject=%C3%87atalh%C3%B6y%C3%BCk&amp;rft.subject=Animal+Economy&amp;rft.creator=David+Orton&amp;rft.creator=Nerissa+Russell&amp;rft.creator=Katherine+Twiss&amp;rft.creator=Louise+Martin&amp;rft.creator=Sheelagh+Frame&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fsubjects%2FE44A115A-DFCB-4971-6750-40955DF2C062</oc:coins>
     <oc:geo_reference>
       <oc:geo_lat>37.6675</oc:geo_lat>
       <oc:geo_long>32.828333</oc:geo_long>
@@ -81,10 +122,10 @@
     </oc:copyright_lic>
   </oc:metadata>
   <oc:social_usage>
-    <oc:last_updated>2013-08-08T05:13:53-07:00</oc:last_updated>
+    <oc:last_updated>2013-08-14T01:11:03-07:00</oc:last_updated>
     <oc:item_views>
       <oc:count>1</oc:count>
-      <oc:view_time>2013/08/08 05:13:53</oc:view_time>
+      <oc:view_time>2013/08/14 01:11:03</oc:view_time>
     </oc:item_views>
     <oc:user_tags>
       <oc:tag type="chronological" status="public">
