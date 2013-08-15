@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<arch:resource xmlns:arch="http://ochre.lib.uchicago.edu/schema/Resource/Resource.xsd" xmlns:oc="http://opencontext.org/schema/resource_schema_v1.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml" UUID="C34ECB9E-33C9-43CB-906D-24410F85ED0F" ownedBy="1B426F7C-99EC-4322-4069-E8DBD927CCF1" type="internalDocument">
+  <arch:name>
+    <arch:string>Cranial Elements Data Documentation</arch:string>
+  </arch:name>
+  <arch:links>
+    <arch:docID type="person" info="Creator">2664C6A9-3867-4EC7-C7A6-F60C688E7008</arch:docID>
+    <arch:docID type="spatialUnit" info="link">E44A115A-DFCB-4971-6750-40955DF2C062</arch:docID>
+    <oc:space_links>
+      <oc:link href="http://opencontext.org/subjects/E44A115A-DFCB-4971-6750-40955DF2C062">
+        <oc:name>Çatalhöyük</oc:name>
+        <oc:id>E44A115A-DFCB-4971-6750-40955DF2C062</oc:id>
+        <oc:relation>link</oc:relation>
+        <oc:item_class>
+          <oc:name>Site</oc:name>
+          <oc:iconURI>site_30x30.jpg</oc:iconURI>
+        </oc:item_class>
+        <oc:context>
+          <oc:tree id="default">
+            <oc:parent href="http://opencontext.org/subjects/1_Global_Spatial">
+              <oc:name>Turkey</oc:name>
+              <oc:id>1_Global_Spatial</oc:id>
+              <oc:level>1</oc:level>
+              <oc:item_class>
+                <oc:name>Region</oc:name>
+                <oc:iconURI>http://opencontext.org/database/ui_images/med_oc_icons/region_30x30.jpg</oc:iconURI>
+              </oc:item_class>
+            </oc:parent>
+          </oc:tree>
+        </oc:context>
+      </oc:link>
+    </oc:space_links>
+    <oc:person_links>
+      <oc:link href="http://opencontext.org/persons/2664C6A9-3867-4EC7-C7A6-F60C688E7008" cite="contributor">
+        <oc:name>David Orton</oc:name>
+        <oc:id>2664C6A9-3867-4EC7-C7A6-F60C688E7008</oc:id>
+        <oc:relation>Creator</oc:relation>
+      </oc:link>
+    </oc:person_links>
+  </arch:links>
+  <arch:content>
+    <arch:internalDocument>
+      <arch:string type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <div>
+<h4>Introduction</h4>
+<p>The full Cranial table in the original database includes information on exactly which cranial bones/portions are present. This has been omitted here, so the data included in this project are primarily for documenting information about horn cores, antlers, teeth and tooth wear.</p>
+
+<h4>Tooth Wear</h4>
+<p>The tooth wear recording system is not necessarily the most intuitive, having been kept as close as possible to the format in the original database. In theory, most of the tooth wear fields relate to teeth in jaws (including articulated teeth where the jaw itself is not preserved), while loose teeth are recorded in a separate set of five fields towards the end of the table. In practice there has been some inconsistency in how loose teeth are recorded - particularly regarding Payne/Grant wear stages - with at least one major change of protocol over the course of the project. An effort has been made to standardize the format here: all loose teeth are now recorded using the five dedicated fields, but where Payne/Grant stages are provided (in whatever original format) these have been entered into the relevant fields in the main tooth wear section. In recent years recording of Payne stages for loose caprine teeth has been dropped altogether.</p>
+
+<p>
+Although much effort has been put into checking for and fixing inconsistencies, users are advised to take care when using this data. Likely causes of confusion include the numbering system used for deciduous premolars and the fact that very slightly different numeric coding schemes were used for deciduous versus permanent teeth, although these have been replaced with text here.</p>
+
+
+<h4 id="metrics">Cranial Measurements</h4>
+<p>Cranial measurements follow the above principles but are a little more complicated due to the very large number of measurements that could potentially be taken on an intact skull. To avoid having an impractical number of fields in its measurement table, the Çatalhöyük system uses a series of 'Measurement Sets', each containing a related group of measurements. A single cranial specimen may potentially have measurements from more than one of these sets.</p>
+
+<p>Measurement Sets 1-4 include various measurements of the skull itself, but these are actually very scarce within the data set and are not included here. Set 5 is for the mandible, and Set 6 is for teeth. Additional tooth measurements are defined within Set 7, and for equids and carnivores in Set 8.</p>
+
+<p>Horn cores have their own version of Measurement Set 1. Where both horn cores are present and measurable - as for some bucrania - two records have been created to store the measurements, each linked to the same Specimen record via the GID field.</p>
+
+<p>Each measurement field is accompanied by a measurement modifier field with a matching number: Mod1, Mod2, etc. This field notes whether the specimen was young or the measurement potentially affected by burning, pathology etc. The default is Standard measurement.</p>
+
+<h4 id="oc-metrics">Cranial Measurements in Open Context</h4>
+<p>Because Open Context organizes data in a different schema, and only the fields / properties actually used with a given specimen will be visible with that specimen. In publication with Open Context values in the "Mod" fields from the source data tables where used to generate different properties (fields) as follows:</p>
+
+<div style="margin-left:5%;">
+  <p><strong>[Measurement name]::[Measurement modifier]</strong></p>
+  <p>Examples: </p>
+<ul>
+<li>Length of M1 at occlusal surface::Standard measurement</li>
+<li>Length of P4 at alveolus::Estimated</li>
+</ul>
+</div>
+
+<p>This allows measurements of different types to be differentiated and easily queried. In addition, Open Context editors annotated Çatalhöyük measurements (only with the "Standard measurements" modifier) that matched widely used conventions with the <a href="http://opencontext.org/vocabularies/open-context-zooarch">Open Context Zooarchaeology Annotations</a> vocabulary.</p>
+
+
+</div>
+        </div>
+      </arch:string>
+    </arch:internalDocument>
+  </arch:content>
+  <oc:metadata>
+    <dc:title>Çatalhöyük Zooarchaeology: Cranial Elements Data Documentation</dc:title>
+    <dc:publisher>Open Context</dc:publisher>
+    <dc:date>2013-08-11</dc:date>
+    <dc:subject>Zooarchaeology</dc:subject>
+    <dc:subject>Turkey</dc:subject>
+    <dc:subject>Neolithic</dc:subject>
+    <dc:subject>Mammal Remains</dc:subject>
+    <dc:subject>Faunal data</dc:subject>
+    <dc:subject>Central Anatolia</dc:subject>
+    <dc:subject>Çatalhöyük</dc:subject>
+    <dc:subject>Animal Economy</dc:subject>
+    <dc:contributor href="http://opencontext.org/persons/2664C6A9-3867-4EC7-C7A6-F60C688E7008">David Orton</dc:contributor>
+    <dc:creator href="http://opencontext.org/persons/2664C6A9-3867-4EC7-C7A6-F60C688E7008">David Orton</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/94AA8533-450D-4FC7-4DC1-3CB12A3FE52C">Nerissa Russell</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/">Katherine Twiss</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/193BC120-D87D-4122-1877-A8BA4999BCDA">Louise Martin</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/D210F391-6424-4E14-FA35-F4F5C4627EA2">Sheelagh Frame</dc:creator>
+    <dc:identifier>http://opencontext.org/documents/C34ECB9E-33C9-43CB-906D-24410F85ED0F</dc:identifier>
+    <oc:project_name href="http://opencontext.org/projects/1B426F7C-99EC-4322-4069-E8DBD927CCF1" editStatus="0" statusURI="http://purl.org/ontology/bibo/status/unpublished" statusDes="Not published or placeholder content" statusLabel="Placeholder">Çatalhöyük Zooarchaeology</oc:project_name>
+    <oc:pub_date>2013-08-11T00:00:00-07:00</oc:pub_date>
+    <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=%C3%87atalh%C3%B6y%C3%BCk+Zooarchaeology%3A+Cranial+Elements+Data+Documentation&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=Zooarchaeology&amp;rft.subject=Turkey&amp;rft.subject=Neolithic&amp;rft.subject=Mammal+Remains&amp;rft.subject=Faunal+data&amp;rft.subject=Central+Anatolia&amp;rft.subject=%C3%87atalh%C3%B6y%C3%BCk&amp;rft.subject=Animal+Economy&amp;rft.contributor=David+Orton&amp;rft.creator=David+Orton&amp;rft.creator=Nerissa+Russell&amp;rft.creator=Katherine+Twiss&amp;rft.creator=Louise+Martin&amp;rft.creator=Sheelagh+Frame&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fdocuments%2FC34ECB9E-33C9-43CB-906D-24410F85ED0F</oc:coins>
+    <oc:geo_reference>
+      <oc:geo_lat>37.6675</oc:geo_lat>
+      <oc:geo_long>32.828333</oc:geo_long>
+      <oc:metasource ref_type="self" href="http://opencontext.org/subjects/C34ECB9E-33C9-43CB-906D-24410F85ED0F">
+        <oc:source_name>Çatalhöyük</oc:source_name>
+        <oc:source_id>C34ECB9E-33C9-43CB-906D-24410F85ED0F</oc:source_id>
+      </oc:metasource>
+    </oc:geo_reference>
+  </oc:metadata>
+  <oc:social_usage>
+    <oc:last_updated>2013-08-14T23:46:59-07:00</oc:last_updated>
+    <oc:item_views>
+      <oc:count>1</oc:count>
+      <oc:view_time>2013/08/14 23:46:59</oc:view_time>
+    </oc:item_views>
+    <oc:user_tags>
+      <oc:tag type="chronological" status="public">
+        <oc:name>(7400 BCE - 5500 BCE)</oc:name>
+        <oc:chrono isDuration="true">
+          <oc:time_start>-7400</oc:time_start>
+          <oc:time_finish>-5500</oc:time_finish>
+          <oc:metasource ref_type="self" href="http://opencontext.org/subjects/C34ECB9E-33C9-43CB-906D-24410F85ED0F">
+            <oc:source_name>Çatalhöyük</oc:source_name>
+            <oc:source_id>C34ECB9E-33C9-43CB-906D-24410F85ED0F</oc:source_id>
+          </oc:metasource>
+        </oc:chrono>
+        <oc:tag_creator id="oc">
+          <oc:creator_name>Open Context Editors</oc:creator_name>
+          <oc:set_label>Default set</oc:set_label>
+          <oc:set_id>Default set</oc:set_id>
+          <oc:set_date>2013-03-05T14:25:24-07:00</oc:set_date>
+        </oc:tag_creator>
+      </oc:tag>
+    </oc:user_tags>
+  </oc:social_usage>
+</arch:resource>
+    
