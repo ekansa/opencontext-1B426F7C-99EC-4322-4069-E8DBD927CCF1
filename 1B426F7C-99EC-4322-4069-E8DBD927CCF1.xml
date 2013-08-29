@@ -40,6 +40,8 @@
     <arch:docID type="person" info="Project Participant">00A61CAC-B846-4824-C32B-3BD4EA483BA5</arch:docID>
     <arch:docID type="person" info="Project Participant">B6C16214-1CA5-4D14-D098-D2AB5B5A3D91</arch:docID>
     <arch:docID type="person" info="Project Participant">777C589D-574B-40C2-2C86-806F98149F77</arch:docID>
+    <arch:docID type="resource" info="link">C34ECB9E-33C9-43CB-906D-24410F85ED0F</arch:docID>
+    <arch:docID type="resource" info="link">D1B075BF-DD3E-4824-0957-310263DEEFA1</arch:docID>
     <oc:space_links>
       <oc:link href="http://opencontext.org/subjects/E44A115A-DFCB-4971-6750-40955DF2C062">
         <oc:name>Çatalhöyük</oc:name>
@@ -64,6 +66,18 @@
         </oc:context>
       </oc:link>
     </oc:space_links>
+    <oc:diary_links>
+      <oc:link href="http://opencontext.org/documents/C34ECB9E-33C9-43CB-906D-24410F85ED0F">
+        <oc:name>Cranial Elements Data Documentation</oc:name>
+        <oc:id>C34ECB9E-33C9-43CB-906D-24410F85ED0F</oc:id>
+        <oc:relation>link</oc:relation>
+      </oc:link>
+      <oc:link href="http://opencontext.org/documents/D1B075BF-DD3E-4824-0957-310263DEEFA1">
+        <oc:name>Post-Cranial Elements Data Documentation</oc:name>
+        <oc:id>D1B075BF-DD3E-4824-0957-310263DEEFA1</oc:id>
+        <oc:relation>link</oc:relation>
+      </oc:link>
+    </oc:diary_links>
     <oc:person_links>
       <oc:link href="http://opencontext.org/persons/94AA8533-450D-4FC7-4DC1-3CB12A3FE52C">
         <oc:name>Nerissa Russell</oc:name>
@@ -254,6 +268,8 @@
         <p>The presence of records representing selected specimens from incompletely studied units obviously introduces a risk of bias, and the safest option would have been to include only fully recorded units here. However, since biometry will be a major component of the meta-analysis, all measured specimens from units rated A1 to A4 have also been included (excepting measurements that relate only to bone working). These specimens should only be used for biometry, and have been flagged as such in the specimen table (see below). Specimens from unstudied units that were recorded for any purpose other than biometry (e.g. bone working, dating, biomolecular sampling) are not included here.</p>
         
         <p>During the extraction process, various errors and ambiguities were inevitably encountered. Wherever possible these were corrected/clarified using the available information. In some cases this was not possible, however, and a small amount of nonsensical or potentially misleading data has been deleted as a result. Given its sheer size, further errors almost certainly exist within the dataset presented here.</p>
+
+<p>Open Context has published an additional related dataset documenting results of zooarchaeological studies from <a href="http://opencontext.org/projects/02594C48-7497-40D7-11AE-AB942DC513B8">Çatalhöyük Area TP</a>.</p>
         
         <h4>Bibliography</h4>
         <div resource="http://opencontext.org/subjects/E44A115A-DFCB-4971-6750-40955DF2C062">    
@@ -313,7 +329,12 @@
             </div>
             
         </div>    
-        
+         <h5>Image Credit</h5>
+<p class="muted">
+Credit for this project's illustrative image 
+<a href="http://www.flickr.com/photos/catalhoyuk/9184503529">Çatalhöyük Project (via Flickr)</a>
+(CC-By-NC-SA)
+</p>
     </div>
         </div>
       </arch:string>
@@ -322,7 +343,7 @@
   <oc:metadata>
     <dc:title>Çatalhöyük Zooarchaeology: (Overview)</dc:title>
     <dc:publisher>Open Context</dc:publisher>
-    <dc:date>2013-08-11</dc:date>
+    <dc:date>2013-08-28</dc:date>
     <dc:subject>Zooarchaeology</dc:subject>
     <dc:subject>Turkey</dc:subject>
     <dc:subject>Neolithic</dc:subject>
@@ -333,13 +354,13 @@
     <dc:subject>Animal Economy</dc:subject>
     <dc:creator href="http://opencontext.org/persons/2664C6A9-3867-4EC7-C7A6-F60C688E7008">David Orton</dc:creator>
     <dc:creator href="http://opencontext.org/persons/94AA8533-450D-4FC7-4DC1-3CB12A3FE52C">Nerissa Russell</dc:creator>
-    <dc:creator href="http://opencontext.org/persons/">Katherine Twiss</dc:creator>
+    <dc:creator href="http://opencontext.org/persons/7CDF91A1-3230-41FB-274A-E927734F8DE6">Katheryn Twiss</dc:creator>
     <dc:creator href="http://opencontext.org/persons/193BC120-D87D-4122-1877-A8BA4999BCDA">Louise Martin</dc:creator>
     <dc:creator href="http://opencontext.org/persons/D210F391-6424-4E14-FA35-F4F5C4627EA2">Sheelagh Frame</dc:creator>
     <dc:identifier>http://opencontext.org/projects/1B426F7C-99EC-4322-4069-E8DBD927CCF1</dc:identifier>
     <dc:identifier type="doi" href="http://dx.doi.org/10.6078/M7G15XSF">10.6078/M7G15XSF</dc:identifier>
     <oc:project_name href="http://opencontext.org/projects/1B426F7C-99EC-4322-4069-E8DBD927CCF1">Çatalhöyük Zooarchaeology</oc:project_name>
-    <oc:pub_date>2013-08-11T00:00:00-07:00</oc:pub_date>
+    <oc:pub_date>2013-08-28T00:00:00-07:00</oc:pub_date>
     <oc:coins>ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=dataset&amp;rft.title=%C3%87atalh%C3%B6y%C3%BCk+Zooarchaeology%3A+%28Overview%29&amp;rft.publisher=Open+Context&amp;rft.source=Open+Context&amp;rft.subject=Zooarchaeology&amp;rft.subject=Turkey&amp;rft.subject=Neolithic&amp;rft.subject=Mammal+Remains&amp;rft.subject=Faunal+data&amp;rft.subject=Central+Anatolia&amp;rft.subject=%C3%87atalh%C3%B6y%C3%BCk&amp;rft.subject=Animal+Economy&amp;rft.creator=David+Orton&amp;rft.creator=Nerissa+Russell&amp;rft.creator=Katherine+Twiss&amp;rft.creator=Louise+Martin&amp;rft.creator=Sheelagh+Frame&amp;rft.identifier=http%3A%2F%2Fopencontext.org%2Fprojects%2F1B426F7C-99EC-4322-4069-E8DBD927CCF1&amp;rft.identifier=DOI%3A10.6078%2FM7G15XSF</oc:coins>
     <oc:copyright_lic href="http://creativecommons.org/licenses/by/3.0">
       <oc:lic_name>Attribution</oc:lic_name>
